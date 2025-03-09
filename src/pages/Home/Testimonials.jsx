@@ -52,7 +52,7 @@ const TestimonialSlider = () => {
 
   return (
     <div className="w-full bg-white py-16">
-      <div className=" max-w-screen-xl mx-auto px-6">
+      <div className=" max-w-4xl xl:max-w-6xl   mx-auto px-6">
         <div className="flex flex-col md:flex-row items-center justify-between gap-12">
           {/* Left Column */}
           <div className="w-full md:w-1/2 max-w-lg">

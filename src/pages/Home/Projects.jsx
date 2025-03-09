@@ -33,7 +33,7 @@ const ProjectsSection = () => {
 
   return (
     <section className="bg-slate-900 min-h-[600px] py-16 px-4 sm:px-6 lg:px-8">
-      <div className="max-w-screen-xl mx-auto">
+      <div className="max-w-4xl xl:max-w-6xl   mx-auto">
         <div className="flex items-center mb-12">
           <h2 className="text-gray-400 text-sm uppercase tracking-wider">WHERE WE DO</h2>
         </div>

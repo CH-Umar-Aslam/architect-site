@@ -31,7 +31,7 @@ const BlogSection = () => {
 
   return (
     <div className="w-full bg-gradient-to-r from-gradColLeft to-gradColRight py-16 px-6">
-      <div className="container mx-auto max-w-6xl">
+      <div className="max-w-4xl xl:max-w-6xl  mx-auto ">
         {/* Header Section */}
         <div className="flex flex-col sm:flex-row justify-between items-start sm:items-center mb-10">
           <div>

@@ -30,7 +30,7 @@ const FAQSection = () => {
 
   return (
     <div className="w-full bg-white py-16">
-      <div className="container mx-auto px-6 max-w-6xl">
+      <div className="max-w-4xl lg:max-5-xl xl:max-w-6xl  mx-auto  px-6 ">
         <div className="flex flex-col md:flex-row gap-10">
           
           {/* Left Section */}

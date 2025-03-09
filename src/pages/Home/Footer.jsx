@@ -5,7 +5,7 @@ import { FaChevronRight } from 'react-icons/fa';
 const Footer = () => {
   return (
     <footer className="bg-gray-900 text-white py-12">
-      <div className="container mx-auto px-6 max-w-6xl">
+      <div className="max-w-4xl xl:max-w-6xl   mx-auto px-6 ">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10 mb-10">
           {/* Logo and Company Info */}
           <div>

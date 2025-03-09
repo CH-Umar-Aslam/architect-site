@@ -67,7 +67,7 @@ const ServicesSection = () => {
 
   return (
     <div className=" py-16 px-4">
-      <div className="max-w-screen-xl mx-auto">
+      <div className="max-w-4xl xl:max-w-6xl   mx-auto">
         <div className="mb-12">
           <p className="text-primary uppercase tracking-wide mb-2">What We Do</p>
           <h2 className="text-3xl font-bold text-gray-800">

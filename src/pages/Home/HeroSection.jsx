@@ -6,15 +6,15 @@ const HeroSection = () => {
         backgroundImage: 'url("/assets/heroBG.jpeg")',
         backgroundSize: 'cover',
         backgroundPosition: 'bottom'
-      }} className="relative flex font-Archivo flex-col justify-center md:justify-start md:flex-row min-h-[calc(100vh-64px)]">
+      }} className="relative flex font-Archivo flex-col overflow-hidden justify-center md:justify-start md:flex-row min-h-[calc(100vh-64px)]">
       {/* Left Text Column */}
-      <div className="max-w-xl  bg-red-30 p-6 md:ml-[12rem] flex flex-col  md:justify-center  text-white">
+      <div className="max-w-xl   p-6 md:ml-[8rem] flex flex-col  md:justify-center  text-white">
         <p className="text-sm z-10 uppercase tracking-wide  text-secondary">
           Lorem Ipsum
         </p>
         <div className='relative'> 
 
-        <p className=' border-b border-secondary  absolute  w-full overflow-hidden -top-3 -left-[33.3rem] bg-secondary'></p>
+        <p className=' border-b-[1px] border-secondary  absolute  w-full overflow-hidden -top-3 -left-[33.3rem] bg-secondary'></p>
         </div>
         <h1 className="text-4xl md:text-5xl leading-[190%] font-bold mb-6">
           Loremoral Exceeding Lorem Expectations

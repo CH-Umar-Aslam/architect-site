@@ -23,7 +23,7 @@ const Navbar = () => {
 
   return (
     <div className=" bg-gradient-to-r from-[#0F0D0D] to-[#304646]  px-4  shadow font-Archivo font-semibold">
-      <div className="relative mx-auto flex max-w-screen-lg flex-col py-4 sm:flex-row sm:items-center sm:justify-between">
+      <div className="relative  flex max-w-4xl xl:max-w-6xl  mx-auto flex-col py-4 sm:flex-row sm:items-center sm:justify-between">
         <Link className="flex text-white items-center text-2xl font-black" href="/">
          <h2>LOGO</h2>
           

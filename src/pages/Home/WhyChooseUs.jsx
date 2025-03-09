@@ -4,7 +4,7 @@ import { Layers } from 'lucide-react';
 const WhyChooseUs = () => {
   return (
     <div className="w-full bg-gray-900 py-16 px-6">
-      <div className="max-w-screen-xl mx-auto ">
+      <div className="max-w-4xl xl:max-w-6xl  mx-auto ">
         {/* Header Section */}
         
         {/* Grid of Cards */}

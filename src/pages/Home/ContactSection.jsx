@@ -26,7 +26,7 @@ const ContactSection = () => {
 
   return (
     <div className="w-full bg-white py-16 px-6">
-      <div className="container mx-auto max-w-6xl">
+      <div className="max-w-4xl xl:max-w-6xl  mx-auto ">
         <div className="flex flex-col md:flex-row justify-between gap-12">
           
           {/* Left Column - Contact Form */}
