@@ -1,7 +1,7 @@
 import ProcessTimeline from '@/pages/About/ProcessTimeline'
 import ServicesSection from '@/pages/Home/WhatWeDo'
-import ServicesHighlight from '@/pages/services/ConstructionConsulting'
-import ServicesHeader from '@/pages/services/ServicesHeader'
+import ServicesHighlight from '@/pages/Services/ConstructionConsulting'
+import ServicesHeader from '@/pages/Services/ServicesHeader'
 import React from 'react'
 
 const Services = () => {
@@ -9,8 +9,8 @@ const Services = () => {
     <div>
       <ServicesHeader/>
       <ServicesSection/>
-      <ServicesHighlight/>
       <ProcessTimeline/>
+      <ServicesHighlight/>
     </div>
   )
 }

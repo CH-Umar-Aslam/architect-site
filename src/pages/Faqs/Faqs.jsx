@@ -70,14 +70,14 @@ const FAQSection = () => {
                   >
                     <span className={`font-semibold transition-transform delay-300 ${openIndex === index ? "text-primary": "text-black"} `}>{item.question}</span>
                     {openIndex === index ? 
-            <Minus className="h-5 w-5 text-black font-extrabold" /> : 
+            <Minus className="h-5 w-5 text-primary font-extrabold" /> : 
 <Plus className="h-5 w-5 text-black font-extrabold" />
                     }
                   </button>
                   
                   <div 
                     className={`overflow-hidden transition-all duration-300 ${
-                      openIndex === index ? 'max-h-40 opacity-100' : 'max-h-0 opacity-0'
+                      openIndex === index ? 'max-h-max opacity-100' : 'max-h-0 opacity-0'
                     }`}
                   >
                     <div className="py-2 px-6 text-darkGray">

@@ -3,3 +3,23 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+
+}
+
+::-webkit-scrollbar-track {
+  @apply bg-primary;
+}
+
+::-webkit-scrollbar-thumb {
+  @apply bg-yellow-500 rounded-md;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    cursor: pointer;
+  @apply bg-yellow-500;
+}
+

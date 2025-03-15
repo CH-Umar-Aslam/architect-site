@@ -1,8 +1,6 @@
-import Navbar from "@/components/Navbar";
 import BlogSection from "@/pages/Home/Blogs";
-import ContactSection from "@/pages/Home/ContactSection";
-import FAQSection from "@/pages/Home/Faqs";
-import Footer from "@/pages/Home/Footer";
+import ContactSection from "@/pages/Contact/ContactSection";
+import FAQSection from "@/pages/Faqs/Faqs";
 import HeroSection from "@/pages/Home/HeroSection";
 import ProjectsSection from "@/pages/Home/Projects";
 import TestimonialSlider from "@/pages/Home/Testimonials";
@@ -22,7 +20,7 @@ export default function Home() {
 <FAQSection/>
 <BlogSection/>
 <ContactSection/>
-<Footer/>
+
 </div>
   );
 }

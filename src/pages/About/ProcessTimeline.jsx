@@ -21,7 +21,7 @@ export default function ProcessTimeline() {
   ]
 
   return (
-    <div className=" bg-gradient-to-r from-gradColLeft to-gradColRight text-white py-16 px-4 md:px-8">
+    <div className=" bg-gradient-to-r from-gradColLeft to-gradColRight text-white pt-16 pb-28 border-b px-4 md:px-8">
       <div className="max-w-4xl lg:max-w-5xl xl:max-w-6xl  mx-auto">
         <div className="mb-6">
           <p className="text-sm uppercase tracking-wider text-secondary">BETTER PROCESS</p>

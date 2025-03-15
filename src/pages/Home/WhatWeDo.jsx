@@ -18,8 +18,8 @@ const ServiceCard = ({ icon: Icon, title, description }) => (
     <h3 className="text-xl font-semibold  text-darkGray group-hover:text-white">
       {title}
     </h3>
-    <p className="text-darkGray text-pretty pb-6 pt-3  group-hover:text-white">
-      {description}
+    <p className="text-darkGray  text-pretty pb-6 pt-3  group-hover:text-white">
+      {description} 
     </p>
     <a href="#" className="text-primary flex items-center  overflow-hidden font-medium">
   Details

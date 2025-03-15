@@ -89,9 +89,9 @@ const TestimonialSection = () => {
         <div className=" mb-8 md:mb-12">
           <p className="text-sm font-medium uppercase tracking-wider text-gray-500">OUR REVIEWS</p>
           <h2 className="text-2xl md:text-3xl font-bold mt-2">
-            <span className="text-gray-900">What </span>
-            <span className="text-emerald-500">Our Clients</span>
-            <span className="text-gray-900"> Say</span>
+            <span className="text-darkGray">What </span>
+            <span className="text-primary">Our Clients</span>
+            <span className="text-darkGray"> Say</span>
           </h2>
         </div>
 
@@ -124,7 +124,7 @@ const TestimonialSection = () => {
                     />
                   </div>
                   <div>
-                    <h4 className="font-medium text-sm md:text-base text-gray-900">{testimonial.author}</h4>
+                    <h4 className="font-medium text-sm md:text-base text-darkGray">{testimonial.author}</h4>
                     <p className="text-xs text-gray-500 mt-1">{testimonial.position}</p>
                   </div>
                 </div>
@@ -138,7 +138,7 @@ const TestimonialSection = () => {
                 key={index}
                 onClick={() => handleDotClick(index)}
                 className={`w-2 h-2 mx-1 rounded-full ${
-                  activeIndex === index ? 'bg-emerald-500' : 'bg-gray-300'
+                  activeIndex === index ? 'bg-primary' : 'bg-gray-300'
                 }`}
                 aria-label={`Go to slide ${index + 1}`}
               />
@@ -158,7 +158,7 @@ const TestimonialSection = () => {
             className="absolute right-0 top-1/2 -translate-y-1/2 translate-x-0 md:translate-x-5 w-8 h-8 md:w-10 md:h-10 flex items-center justify-center bg-white rounded-full shadow-md z-10"
             aria-label="Next testimonial"
           >
-            <ChevronRight className="w-4 h-4 md:w-5 md:h-5 text-gray-600" />
+            <ChevronRight className="w-4 h-4 md:w-5 darkGray md:h-5 text-gray-600" />
           </button>
         </div>
       </div>

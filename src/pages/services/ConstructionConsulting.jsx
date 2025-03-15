@@ -1,4 +1,4 @@
-import { ShieldCheck } from 'lucide-react';
+import { HardHat, PencilRuler, ShieldCheck} from 'lucide-react';
 import React from 'react';
 
 const ServicesHighlight = () => {
@@ -12,7 +12,7 @@ const ServicesHighlight = () => {
               <p className="text-gray-500 mb-1 text-sm">Technical consultancy services</p>
               <h2 className="text-3xl font-bold mb-4">
                 Solving Problems<br />
-                With the Help  <span className="text-emerald-500"> of Experts</span>
+                With the Help  <span className="text-primary"> of Experts</span>
               </h2>
               <p className="text-gray-600 mb-8">
                 Our specialized team provides innovative solutions for your construction 
@@ -24,14 +24,12 @@ const ServicesHighlight = () => {
                 {/* Service Item 1 */}
                 <div className="flex items-start">
                   <div className="flex-shrink-0 mr-3">
-                    <div className="w-10 h-10 rounded-full bg-emerald-100 flex items-center justify-center">
-                      <svg className="w-5 h-5 text-emerald-500" viewBox="0 0 20 20" fill="currentColor">
-                        <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
-                      </svg>
+                    <div className="md:w-12 w-6 h-6 md:h-12 rounded-full  text-primary flex items-center justify-center">
+                    <ShieldCheck className='w-8 h-8   ' />
                     </div>
                   </div>
                   <div>
-                    <h3 className="font-medium text-gray-900">Planning & Initial Audit</h3>
+                    <h3 className="font-medium text-darkGray">Planning & Initial Audit</h3>
                     <p className="text-gray-600 text-sm">Comprehensive assessment of project requirements</p>
                   </div>
                 </div>
@@ -39,14 +37,13 @@ const ServicesHighlight = () => {
                 {/* Service Item 2 */}
                 <div className="flex items-start">
                   <div className="flex-shrink-0 mr-3">
-                    <div className="w-10 h-10 rounded-full bg-emerald-100 flex items-center justify-center">
-                      <svg className="w-5 h-5 text-emerald-500" viewBox="0 0 20 20" fill="currentColor">
-                        <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
-                      </svg>
+                    <div className="md:w-12 w-6 h-6 md:h-12 rounded-full  text-primary flex items-center justify-center">
+                    <PencilRuler  className='w-8 h-8    '/>
+
                     </div>
                   </div>
                   <div>
-                    <h3 className="font-medium text-gray-900">Technical Documentation</h3>
+                    <h3 className="font-medium text-darkGray">Technical Documentation</h3>
                     <p className="text-gray-600 text-sm">Detailed specifications and compliance documentation</p>
                   </div>
                 </div>
@@ -54,12 +51,13 @@ const ServicesHighlight = () => {
                 {/* Service Item 3 */}
                 <div className="flex items-start">
                   <div className="flex-shrink-0 mr-3">
-                    <div className="w-10 h-10 rounded-full bg-emerald-100 flex items-center justify-center">
-                    <ShieldCheck />
+                    <div className="md:w-12 w-6 h-6 md:h-12 rounded-full  text-primary flex items-center justify-center">
+                   
+                    <HardHat className='w-8 h-8  ' />
                     </div>
                   </div>
                   <div>
-                    <h3 className="font-medium text-gray-900">On-site Project Management</h3>
+                    <h3 className="font-medium text-darkGray">On-site Project Management</h3>
                     <p className="text-gray-600 text-sm">Expert oversight and coordination of construction activities</p>
                   </div>
                 </div>
@@ -71,9 +69,9 @@ const ServicesHighlight = () => {
           <div className="w-full md:w-1/2">
             <div className="rounded-lg overflow-hidden shadow-xl">
               <img 
-                src="/assets/engineers.svg" 
+                src="/assets/civil.jpg" 
                 alt="Construction experts reviewing blueprints" 
-                className="w-full h-full object-cover"
+                className="w-full h-[410px] object-cover"
               />
             </div>
           </div>

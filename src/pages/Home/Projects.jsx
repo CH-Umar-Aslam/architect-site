@@ -38,7 +38,7 @@ const ProjectsSection = () => {
           <h2 className="text-gray-400 text-sm uppercase tracking-wider">WHERE WE DO</h2>
         </div>
         <h1 className="text-4xl font-bold text-white mb-12">
-          Our <span className="text-emerald-400">Projects</span>
+          Our <span className="text-primary">Projects</span>
         </h1> 
         
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8">

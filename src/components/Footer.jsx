@@ -4,13 +4,13 @@ import { FaChevronRight } from 'react-icons/fa';
 
 const Footer = () => {
   return (
-    <footer className="bg-gray-900 text-white py-12">
+    <footer className="bg-gradient-to-r from-gradColLeft to-gradColRight text-white py-12">
       <div className="max-w-4xl xl:max-w-6xl   mx-auto px-6 ">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10 mb-10">
           {/* Logo and Company Info */}
           <div>
             <h2 className="text-xl font-bold mb-4">LOGO</h2>
-            <p className="text-gray-400 text-sm mb-4">
+            <p className="text-lightGray text-sm mb-4">
               Libero volutpat sed cras ornare arcu dui vivamus. Ac tortor dignissim convallis aenean et tortor at risus viverra
             </p>
           </div>
@@ -38,22 +38,22 @@ const Footer = () => {
             <h2 className="text-xl font-bold mb-4">Company</h2>
             <ul className="space-y-2">
               <li>
-                <a href="#" className="text-gray-400 flex items-center gap-2 hover:text-primary  transition-colors">
+                <a href="#" className="text-lightGray flex items-center gap-2 hover:text-primary  transition-colors">
                   <FaChevronRight className="text-secondary h-3 w-3  "  /> <p> ABOUT </p>
                 </a>
               </li>
               <li>
-                <a href="#" className="text-gray-400 flex items-center gap-2  hover:text-primary  transition-colors">
+                <a href="#" className="text-lightGray flex items-center gap-2  hover:text-primary  transition-colors">
                   <FaChevronRight className="text-secondary h-3 w-3  " /> <p> SERVICES </p>
                 </a>
               </li>
               <li>
-                <a href="#" className="text-gray-400 flex items-center gap-2 hover:text-primary  transition-colors">
+                <a href="#" className="text-lightGray flex items-center gap-2 hover:text-primary  transition-colors">
                   <FaChevronRight className="text-secondary h-3 w-3  " /> <p> PROJECTS </p>
                 </a>
               </li>
               <li>
-                <a href="#" className="text-gray-400 flex items-center gap-2 hover:text-primary  transition-colors">
+                <a href="#" className="text-lightGray flex items-center gap-2 hover:text-primary  transition-colors">
                   <FaChevronRight className="text-secondary h-3 w-3  " /> <p> SERVICES </p>
                 </a>
               </li>
@@ -63,7 +63,7 @@ const Footer = () => {
           {/* Newsletter Subscription */}
           <div>
             <h2 className="text-xl font-bold mb-4">Subscribe to our news</h2>
-            <p className="text-gray-400 text-sm mb-4">
+            <p className="text-lightGray text-sm mb-4">
               Find out about the test days and the latest promotions of our Corporation
             </p>
             
@@ -83,7 +83,7 @@ const Footer = () => {
         <div className="border-t border-gray-800 pt-6">
           <div className="flex flex-col md:flex-row justify-between items-center">
             <div className="mb-4 md:mb-0">
-              <p className="text-gray-400 text-sm">
+              <p className="text-lightGray text-sm">
                 ABC © ABC Construct
                 <br />
                 All rights reserved Copyrights 2025

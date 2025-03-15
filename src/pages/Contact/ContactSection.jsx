@@ -41,7 +41,7 @@ const ContactSection = () => {
             <h2 className="text-3xl font-bold mb-6">
               Do You Have
               <br /> 
-              any <span className="text-emerald-500">Questions?</span>
+              any <span className="text-primary">Questions?</span>
             </h2>
             
             <form onSubmit={handleSubmit}>
@@ -127,16 +127,16 @@ const ContactSection = () => {
             
             {/* Social Media Icons */}
             <div className="flex space-x-3">
-              <a href="#" className="bg-darkGray p-2 rounded-full hover:bg-emerald-500 transition-colors">
+              <a href="#" className="bg-darkGray p-2 rounded-full hover:bg-primary transition-colors">
                 <Facebook className="w-5 h-5 text-white" />
               </a>
-              <a href="#" className="bg-darkGray p-2 rounded-full hover:bg-emerald-500 transition-colors">
+              <a href="#" className="bg-darkGray p-2 rounded-full hover:bg-primary transition-colors">
                 <Instagram className="w-5 h-5 text-white" />
               </a>
-              <a href="#" className="bg-darkGray p-2 rounded-full hover:bg-emerald-500 transition-colors">
+              <a href="#" className="bg-darkGray p-2 rounded-full hover:bg-primary transition-colors">
                 <Twitter className="w-5 h-5 text-white" />
               </a>
-              <a href="#" className="bg-darkGray p-2 rounded-full hover:bg-emerald-500 transition-colors">
+              <a href="#" className="bg-darkGray p-2 rounded-full hover:bg-primary transition-colors">
                 <Globe className="w-5 h-5 text-white" />
               </a>
             </div>
