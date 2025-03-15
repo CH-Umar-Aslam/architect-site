@@ -1,4 +1,4 @@
-import ContactHeader from '@/pages/Contact/ContactHeade'
+import ContactHeader from '@/pages/Contact/ContactHeader'
 import ContactSection from '@/pages/Contact/ContactSection'
 import React from 'react'
 

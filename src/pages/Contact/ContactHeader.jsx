@@ -17,7 +17,7 @@ const ContactHeader = () => {
         <div className="flex items-center mb-2">
           <div className="w-8  md:w-32 lg:w-44 h-px bg-secondary mr-2 md:mr-4"></div>
           <span className="text-white text-xs md:text-sm uppercase tracking-wider font-medium">
-            Our Contact
+            Our Contacts
           </span>
         </div>
 

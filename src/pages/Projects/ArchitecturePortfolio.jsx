@@ -7,12 +7,12 @@ const ArchitecturePortfolio = () => {
   const filters = ['All', 'Residential', 'Commercial', 'Interior', 'Landscape'];
   
   const projects = [
-    { id: '01', title: 'Project 01', image: '/assets/Project3.svg', category: 'Residential' },
-    { id: '02', title: 'Project 02', image: '/assets/Project3.svg', category: 'Residential' },
-    { id: '03', title: 'Project 03', image: '/assets/Project3.svg', category: 'Commercial' },
-    { id: '04', title: 'Project 04', image: '/assets/Project3.svg', category: 'Interior' },
-    { id: '05', title: 'Project 05', image: '/assets/Project3.svg', category: 'Residential' },
-    { id: '06', title: 'Project 06', image: '/assets/Project3.svg', category: 'Landscape' },
+    { id: '01', title: 'Project 01', image: '/assets/project3.svg', category: 'Residential' },
+    { id: '02', title: 'Project 02', image: '/assets/project3.svg', category: 'Residential' },
+    { id: '03', title: 'Project 03', image: '/assets/project3.svg', category: 'Commercial' },
+    { id: '04', title: 'Project 04', image: '/assets/project3.svg', category: 'Interior' },
+    { id: '05', title: 'Project 05', image: '/assets/project3.svg', category: 'Residential' },
+    { id: '06', title: 'Project 06', image: '/assets/project3.svg', category: 'Landscape' },
   ];
   
   const filteredProjects = activeFilter === 'All' 

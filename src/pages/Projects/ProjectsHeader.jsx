@@ -17,18 +17,18 @@ const ProjectsHeader = () => {
         <div className="flex items-center mb-2">
           <div className="w-8  md:w-32 lg:w-44 h-px bg-secondary mr-2 md:mr-4"></div>
           <span className="text-white text-xs md:text-sm uppercase tracking-wider font-medium">
-            Our Blog
+            Our Projects
           </span>
         </div>
 
         {/* Main Title */}
-        <h1 className="text-white text-4xl md:text-5xl font-bold mb-4">Blog</h1>
+        <h1 className="text-white text-4xl md:text-5xl font-bold mb-4">Projects</h1>
 
         {/* Breadcrumbs */}
         <div className="flex items-center text-xs md:text-sm text-gray-300">
           <Link href="/" className="hover:text-white transition-colors">Home</Link>
           <span className="mx-2">—</span>
-          <span className="text-white">Blog</span>
+          <span className="text-white">Projects</span>
         </div>
       </div>
     </div>

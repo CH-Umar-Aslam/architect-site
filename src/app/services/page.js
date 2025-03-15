@@ -1,20 +1,19 @@
 import ProcessTimeline from '@/pages/About/ProcessTimeline'
 import ServicesSection from '@/pages/Home/WhatWeDo'
-// import Construction from '@/pages/Services/Construction'
-
-// import ServicesHeader from '@/pages/Services/ServicesHeader'
-
+import Construction from '@/pages/Services/Construction'
+import ServicesHeader from '@/pages/Services/ServicesHeader'
 
 
-const Services = () => {
+
+const ServicesPage = () => {
   return (
     <div>
-      {/* <ServicesHeader/> */}
+      <ServicesHeader/>
       <ServicesSection/>
       <ProcessTimeline/>
-      {/* <Construction/> */}
+      <Construction/>
     </div>
   )
 }
 
-export default Services
+export default ServicesPage
