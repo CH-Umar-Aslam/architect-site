@@ -1,7 +1,7 @@
 import { HardHat, PencilRuler, ShieldCheck} from 'lucide-react';
 import React from 'react';
 
-const ConstructionConsulting = () => {
+const Construction = () => {
   return (
     <section className="py-16 bg-white">
       <div className="max-w-6xl mx-auto px-4">
@@ -81,4 +81,4 @@ const ConstructionConsulting = () => {
   );
 };
 
-export default ConstructionConsulting;
+export default Construction;
