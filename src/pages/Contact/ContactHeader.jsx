@@ -1,23 +1,17 @@
+
 import Link from 'next/link';
 import React from 'react';
+import '../../app/globals.css';
 
 const ContactHeader = () => {
   return (
-    <div 
-      style={{
-        backgroundImage: 'url("/assets/contactPlan.svg")',
-        backgroundSize: 'cover',
-        backgroundRepeat: 'no-repeat',
-        backgroundPosition: 'center right',
-      }} 
-      className="relative bg-transparent h-[300px] md:h-[400px] flex pt-16 md:items-center"
-    >  
-      <div className="w-full max-w-4xl xl:max-w-6xl   px-4 md:px-8 lg:px-16 xl:px-20 mx-auto flex flex-col items-center md:items-start text-center md:text-left">
+    <div className="relative bg-gradient-to-r from-gradColLeft to-gradColRight h-[220px] md:h-[300px] flex pt-12 md:pt-16 md:items-center">
+      <div className="w-full max-w-5xl xl:max-w-6xl px-4 md:px-8 lg:px-16 xl:px-20 mx-auto flex flex-col items-center md:items-start text-center md:text-left">
         {/* Line and Subtitle */}
         <div className="flex items-center mb-2">
-          <div className="w-8  md:w-32 lg:w-44 h-px bg-secondary mr-2 md:mr-4"></div>
+          <div className="w-8 md:w-32 lg:w-44 h-px bg-secondary mr-2 md:mr-4"></div>
           <span className="text-white text-xs md:text-sm uppercase tracking-wider font-medium">
-            Our Contacts
+          WE CREATE THE WORLD
           </span>
         </div>
 
@@ -30,6 +24,14 @@ const ContactHeader = () => {
           <span className="mx-2">—</span>
           <span className="text-white">Contact</span>
         </div>
+      </div>
+
+      {/* Large Transparent ABOUT Text */}
+    
+
+      {/* Bottom Right Image */}
+      <div className="absolute bottom-4 md:bottom-10 right-5 w-[180px] md:min-w-[250px] lg:w-[440px]">
+        <img src="/assets/CONTACTS.svg" alt="Decorative" className="w-full h-auto" />
       </div>
     </div>
   );

@@ -16,11 +16,17 @@ export default function Home() {
 <ServicesSection/>
 <ProjectsSection/>
 <TestimonialSlider/>
+
 <WhyChooseUs/>
 <FAQSection/>
 <BlogSection/>
 <ContactSection/>
+<div>
+<input type="text"/>
+<input type="file"/>
 
+
+</div>
 </div>
   );
 }

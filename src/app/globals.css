@@ -23,3 +23,19 @@
   @apply bg-yellow-500;
 }
 
+
+
+
+
+
+.text-container {
+  display: flex;
+  padding: 40px;
+}
+
+.letter {
+
+  color: transparent;
+  -webkit-text-stroke: 1px #daa10f ;
+  
+}
